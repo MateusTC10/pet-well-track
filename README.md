@@ -29,6 +29,11 @@ git clone <YOUR_GIT_URL>
 # Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
+# Step 2.5: open your PowerShell whith administrator, and, send this comand
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# press A and Enter
+
 # Step 3: Install the necessary dependencies.
 npm i
 
